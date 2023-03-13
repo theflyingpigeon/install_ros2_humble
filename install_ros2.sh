@@ -21,6 +21,7 @@ sudo apt install ros-$ROS2_version-desktop ros-$ROS2_version-ros-base ros-dev-to
 
 # add humble to sources list
 echo "source /opt/ros/$ROS2_version/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 
 echo "ROS2 version: $ROS2_version is installed"
 
